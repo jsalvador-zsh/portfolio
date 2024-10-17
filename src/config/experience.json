@@ -1,0 +1,35 @@
+[   
+    {
+        "time": "Mayo - Agosto 2024",
+        "company": "Escuela de Derecho LP",
+        "link-company": "https://lpderecho.pe/",
+        "title": "Desarrollador e implementador Odoo (freelance)",
+        "description": "Implementé Odoo 17 desde cero en un servidor dedicado, configurándolo y gestionando la integración con un dominio mediante Nginx. Desarrollé módulos personalizados para la gestión de gastos, administración de personal y estudiantes, publicidad, documentos, etc."
+    },
+    {
+        "time": "Octubre 2023 - Enero 2024",
+        "company": "Plastigesa E.I.R.L.",
+        "link-company": "https://plastigesa.com/",
+        "title": "Desarrollador e implementador Odoo",
+        "description": "Implementé Odoo 13, configurando el servidor y migrando su sistema de facturación local a Odoo. Configuré APIs y la conectividad con SUNAT, desarrollé un sistema integrado a Excel para ajustar y formatear archivos, facilitando la importación masiva de facturas."
+    },
+    {
+        "time": "Septiembre - Diciembre 2023",
+        "company": "Asesoría de tesis Universidad La Salle",
+        "title": "Desarrollo de sistema en VB. Net y SQL Server",
+        "description": "Encargado del desarrollo de un sistema para la gestión de información de todo el proceso productivo en la empresa Makitex. Logré hacer el seguimiento diario de producción, calculando porcentajes de avance, optimizando y reduciendo tiempos muertos (evaluación con data de prueba)."
+    },
+    {
+        "time": "Junio - Octubre 2023",
+        "company": "Clínica CALMA",
+        "link-company": "https://clinicacalma.fundacioncalma.org/",
+        "title": "Practicante de Estadística y Recaudos",
+        "description": "Encargado de realizar los reportes semanales para el área de Pro-Bono y Consejería con información de los planes que ofrece la clínica, pudiendo aplicar conocimientos adquiridos de estadística y análisis de datos."
+    },
+    {
+        "time": "Junio - Septiembre 2022",
+        "company": "Creaciones ESANTI",
+        "title": "Implementación de un POS en Python y MySQL",
+        "description": "Diseño de una base de datos para el mantenimiento de data mediante interfaz desarrollada en Python para una Pyme del sector textil, obteniendo como resultado un mayor control sobre los pedidos realizados y ventas completadas."
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "title": "Odoo v13 Plastigesa",
+        "description": "Implementacón de Odoo en su versión 13 que incluye facturación electrónica con SUNAT. Se hizo el despliegue en un VPS, desarrollo de módulos para controlar la gestión comercial, proceso productivo, control de calidad, reclutamiento, etc. ",
+        "image": "/img/plastigesa-odoo.webp",
+        "repo": "https://github.com/jsalvador-zsh/powerpallet",
+        "tags": [
+            "Python",
+            "Ubuntu",
+            "Docker"
+        ],
+        "date": "Abril - Septiembre 2024"
+    },
+    {
+        "title": "Odoo v17 Escuela de Derecho LP",
+        "description": "Implementación de Odoo en su versión 17, así como desarrollo de módulos para gestión de documentos, alumnos, personalizaciones itegradas al sistema, etc. La instalación se hizo en un VPS.",
+        "image": "/img/lpderecho-odoo.webp",
+        "repo": "https://github.com/jsalvador-zsh/",
+        "tags": [
+            "Python",
+            "Ubuntu",
+            "Docker"
+        ],
+        "date": "Mayo - Agosto 2024"
+    },
+    {
+        "title": "Rediseño página web Plastigesa",
+        "description": "Actualización de página web para empresa de la ciudad de Arequipa. Se logró buen rendimiento, optimización en la carga de recursos. Proyecto creado con Astro y Tailwind CSS. ",
+        "image": "/img/plastigesa-web.webp",
+        "repo": "https://github.com/jsalvador-zsh/plastigesa-web",
+        "link": "https://plastigesa.com",
+        "tags": [
+            "Astro",
+            "Tailwind",
+            "JavaScript"
+        ],
+        "date": "Septiembre 2024"
+    }
+]

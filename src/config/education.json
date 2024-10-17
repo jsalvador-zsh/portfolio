@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Bachiller en Ingeniería Industrial",
+        "startDate": "marzo 2018",
+        "endDate": "febrero 2024",
+        "entity": "Universidad Nacional de San Agustín de Arequipa",
+        "link": "https://drive.google.com/file/d/1ITcDd772iP142kqGksgYU-4n-a7dIMHB/view?usp=sharing"
+    },
+    {
+        "title": "Bootcamp Desarrollador Odoo FullStack",
+        "startDate": "enero 2024",
+        "endDate": "agosto 2024",
+        "entity": "FullStack Technology School",
+        "link": ""
+    },
+    {
+        "title": "Diplomado en Inteligencia y Análisis de Datos",
+        "startDate": "febrero 2023",
+        "endDate": "agosto 2023",
+        "entity": "WE Educación Ejecutiva",
+        "link": "https://certificate.cel-edu.com/view/1668163298"
+    },
+    {
+        "title": "Microsoft SQL Server I – Implementación",
+        "startDate": "agosto 2022",
+        "endDate": "septiembre 2022",
+        "entity": "CEPS Universidad Nacional de Ingeniería",
+        "link": "https://www.cert-cepsuni.com/iacert/certificado/8cd5950f-1472-4757-a297-0d4ec35cb22d"
+    },
+    {
+        "title": "Microsoft Excel Producción",
+        "startDate": "julio 2022",
+        "endDate": "agosto 2022",
+        "entity": "CEPS Universidad Nacional de Ingeniería",
+        "link": "https://www.cert-cepsuni.com/iacert/certificado/810d9f65-e2c4-48f6-8ba1-d1f5d531f34a"
+    }
+]
