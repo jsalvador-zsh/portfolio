@@ -1,7 +1,7 @@
 ---
 author: Juan Salvador
-pubDatetime: 2024-10-22T21:50:50Z
-modDatetime: 2024-10-22T21:50:50Z
+pubDatetime: 2024-10-22T17:50:50Z
+modDatetime: 2024-10-22T17:50:50Z
 title: Instalación de Odoo 17 con docker-compose
 slug: instalacion-odoo-17-docker
 featured: true
