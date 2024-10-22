@@ -24,7 +24,7 @@ Para comenzar, debemos ir al módulo Configuración en Odoo y buscar la opción 
 - Dirígete a Ajustes > Técnico > Correo electrónico > Servidores de correo.
 - Haz clic en Crear para agregar un nuevo servidor de correo entrante.
 
-![Configuracion de correo](/blog/configuracion-correo.webp)
+![Configuracion de correo](/blog/post-5/configuracion-correo.webp)
 
 ## Parámetros de configuración
 
@@ -38,12 +38,12 @@ Al agregar un nuevo servidor de correo, es importante ingresar correctamente los
 - Nombre de usuario: Tu dirección de correo electrónico
 - Contraseña: La contraseña generada por tu proveedor (en el caso de Gmail, deberás usar una contraseña de aplicaciones).
 
-![Parámetros de correo](/blog/parametros-correo.webp)
+![Parámetros de correo](/blog/post-5/parametros-correo.webp)
 
 ## Probar la conexión
 Después de ingresar los detalles del servidor de correo, puedes hacer clic en el botón Probar conexión para asegurarte de que Odoo pueda conectarse al servidor de correo. Si todo está configurado correctamente, deberías ver un mensaje de éxito.
 
-![Confirmación de correo](/blog/confirmacion-correo.webp)
+![Confirmación de correo](/blog/post-5/confirmacion-correo.webp)
 
 ```python
 from odoo import models, api

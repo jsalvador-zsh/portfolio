@@ -20,7 +20,7 @@ Cuando desarrollamos módulos en Odoo, el archivo `__manifest__.py` es un elemen
 ## Email
 El widget de email permite mostrar una dirección de correo como un enlace clicable. Es útil cuando deseas que el usuario pueda enviar correos electrónicos directamente desde Odoo con solo un clic.
 
-<img src="/blog/widget-email.webp">
+<img src="/blog/post-3/widget-email.webp">
 
 Se utiliza comúnmente en el módulo de Contactos o Usuarios para campos como "correo electrónico".
 
@@ -32,7 +32,7 @@ Se utiliza comúnmente en el módulo de Contactos o Usuarios para campos como "c
 ## Monetary
 El widget monetario muestra valores numéricos formateados como montos de dinero, permitiendo la selección automática de divisa.
 
-<img src="/blog/widget-monetary.webp">
+<img src="/blog/post-3/widget-monetary.webp">
 
 Es frecuente en módulos como Facturación o Ventas, donde se manejan precios y montos.
 
@@ -43,7 +43,7 @@ Es frecuente en módulos como Facturación o Ventas, donde se manejan precios y 
 ## Priority
 Este widget permite visualizar un sistema de prioridad con estrellas o colores, útil para indicar la importancia de una tarea o registro.
 
-<img src="/blog/widget-priority.webp">
+<img src="/blog/post-3/widget-priority.webp">
 
 Se puede encontrar en el módulo de Proyectos o Tareas para indicar la prioridad de una tarea.
 
@@ -54,7 +54,7 @@ Se puede encontrar en el módulo de Proyectos o Tareas para indicar la prioridad
 ## State selection
 El widget de estado muestra un botón desplegable o etiquetas de estado, lo cual facilita la transición entre diferentes etapas de un proceso.
 
-<img src="/blog/widget-state.webp">
+<img src="/blog/post-3/widget-state.webp">
 
 Es común en el módulo de Ventas o CRM para manejar estados como "nuevo", "confirmado", "cancelado".
 
@@ -65,7 +65,7 @@ Es común en el módulo de Ventas o CRM para manejar estados como "nuevo", "conf
 ## URL
 Este widget convierte un campo de texto en un enlace clicable, permitiendo a los usuarios acceder a enlaces externos directamente desde el formulario.
 
-<img src="/blog/widget-url.webp">
+<img src="/blog/post-3/widget-url.webp">
 
 Se utiliza en módulos como Marketing o Proyectos, para proporcionar enlaces a recursos externos.
 

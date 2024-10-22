@@ -14,7 +14,7 @@ tags:
 description: Aprende a personalizar Odoo 13 agregando un nuevo botón al menú de acciones en vistas de formulario.
 ---
 
-![Boton de accion](/blog/boton-accion.webp)
+![Boton de accion](/blog/post-1/boton-accion.webp)
 
 En Odoo 13, puedes agregar botones personalizados al menú de acciones de las vistas de formulario para ejecutar funcionalidades adicionales. Esto es útil si deseas extender las acciones disponibles en modelos específicos, como la validación de documentos, la creación de registros relacionados, o el disparo de una acción específica.
 

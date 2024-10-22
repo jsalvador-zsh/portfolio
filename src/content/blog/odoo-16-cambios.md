@@ -1,7 +1,7 @@
 ---
 author: Juan Salvador
 pubDatetime: 2024-09-13T15:22:00Z
-modDatetime: 2024-09-18T09:12:47.400Z
+modDatetime: 2024-09-18T18:12:47.400Z
 title: Odoo 16 Una versión más rápida y sus cambios clave
 slug: odoo-16-cambios-clave
 featured: true
@@ -14,7 +14,7 @@ description:
   Odoo 16 introduce mejoras significativas en rendimiento y velocidad. Algunos de estos cambios  hacen de esta versión una de las más rápidas de Odoo.
 ---
 
-![Imagen Servidor](/blog/imagen-servidor.webp)
+![Imagen Servidor](/blog/post-2/imagen-servidor.webp)
 
 Odoo 16 tiene una serie de mejoras y optimizaciones que lo posicionan como una de las versiones más rápidas y eficientes del sistema hasta la fecha. Estos son algunos de los cambios más destacados en esta versión y por qué Odoo 16 es considerado un avance significativo en términos de rendimiento.
 
