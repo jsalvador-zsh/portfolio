@@ -13,7 +13,7 @@ description:
   En esta publicación compartiré un manual sobre cómo instalar Odoo 18 Community en Ubuntu. Utilizaremos un script que automatiza los pasos necesarios para la instalación.
 ---
 
-Una alternativa para instalar Odoo es a través de Docker, haciendo uso de contenedores para Odoo como su base de datos en Postgres. En este artículo mostraré como configurar el archivo ```docker-compose.yml``` desde cero para trabajar con Odoo 17. 
+Una alternativa para instalar Odoo es a través de Docker, haciendo uso de contenedores para Odoo como su base de datos en Postgres. En este artículo mostraré como configurar el archivo ```docker-compose.yml``` desde cero para trabajar con Odoo 18. 
 
 ## Table of contents
 

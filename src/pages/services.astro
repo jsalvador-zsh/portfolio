@@ -2,10 +2,153 @@
 import Layout from "@layouts/Layout.astro";
 import Header from "@components/Header.astro";
 import Footer from "@components/Footer.astro";
+import Main from "@layouts/Main.astro";
+
+import FlutterIcon from "../icons/Flutter.astro";
+import PythonIcon from "../icons/Python.astro";
+import VBIcon from "../icons/VisualBasic.astro";
+import ArduinoIcon from "../icons/Arduino.astro";
+import SqlServerIcon from "icons/SqlServer.astro";
+import OpenaiIcon from "icons/Openai.astro";
+import ReportIcon from "icons/Report.astro";
+import MysqlIcon from "icons/Mysql.astro";
+import PandasIcon from "icons/Pandas.astro";
+
+const TAGS = {
+    Python: {
+        name: 'Python',
+        icon: PythonIcon,
+    },
+    Flutter: {
+        name: 'Flutter',
+        icon: FlutterIcon,
+    },
+    VisualBasic: {
+        name: 'Visual Basic',
+        icon: VBIcon,
+    },
+    Arduino: {
+        name: 'Arduino',
+        icon: ArduinoIcon,
+    },
+    SqlServer: {
+        name: 'SQL Server',
+        icon: SqlServerIcon,
+    },
+    OpenAI: {
+        name: 'Open AI',
+        icon: OpenaiIcon,
+    },
+    Report: {
+      name: 'Report Viewer',
+      icon: ReportIcon
+    },
+    Pandas: {
+        name: 'Pandas',
+        icon: PandasIcon,
+    },
+    Mysql: {
+        name: 'MySQL',
+        icon: MysqlIcon,
+    }
+};
+
+const SERVICES = [
+    {
+        title: "Aplicaciones móviles",
+        description: "Desarrollo de aplicaciones móviles multiplataforma con Flutter, integración con Arduino y sistemas de IA.",
+        image: "/img/services/app-screen.webp",
+        tags: [TAGS.Flutter, TAGS.Arduino, TAGS.OpenAI],
+    },
+    {
+        title: "Sistemas de escritorio con Visual Basic",
+        description: "Desarrollo de sistemas de escritorio conectados a bases de datos, generación de reportes y análisis estadístico.",
+        image: "/img/services/projects-vb.webp",
+        tags: [TAGS.VisualBasic, TAGS.SqlServer, TAGS.Report],
+    },
+    {
+        title: "Sistemas de escritorio con Python",
+        description: "Desarrollo de aplicaciones robustas para escritorio con Python, bases de datos y reportes avanzados.",
+        image: "/img/services/projects-py.webp",
+        tags: [TAGS.Python, TAGS.Mysql, TAGS.Pandas],
+    },
+];
 ---
 
 <Layout>
   <Header activeNav="services"/>
+  <Main pageTitle="Servicios" pageDesc="Todos los servicios que ofrezco.">
+    <p><span class="italic">Y trabajos universitarios...</span> 🤫</p>
+    <section id="services-list">
+      {
+        SERVICES.map((service, index) => (
+            <article class="mb-6 last-of-type:mb-0">
+                <header>
+                    <h2 class="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0">
+                        {service.title}
+                    </h2>
+                    <p>{service.description}</p>
+                </header>
+                <footer>
+                    <div class="my-4">
+                        <img
+                            class="border-skin-line my-2 mx-auto border-2 w-auto md:w-4/5"
+                            src={service.image}
+                            width={350}
+                            height={260}
+                            loading="lazy"
+                            alt={"Imagen representativa de " + service.title}
+                        />
+                    </div>
+                    <ul class="flex flex-wrap gap-2 justify-center">
+                        {
+                            service.tags.map(tag => (
+                                <li>
+                                    <span class="flex items-center gap-x-2
+                                                text-sm italic
+                                                rounded-md px-2 py-[2px]
+                                                border border-border/20 dark:border-borderDark/40">
+                                        <tag.icon class="size-4" />
+                                        {tag.name}
+                                    </span>
+                                </li>
+                            ))
+                        }
+                    </ul>
+                </footer>
+            </article>
+        ))
+    }
+    </section>
+  </Main>
     
   <Footer />
 </Layout>
+
+<style>
+  /* ===== Hero Section ===== */
+  #services-list {
+    @apply pb-6 pt-8;
+  }
+  #services-list h1 {
+    @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
+  }
+  #services-list .rss-link {
+    @apply mb-6;
+  }
+  #services-list .rss-icon {
+    @apply mb-2 h-6 w-6 scale-110 fill-skin-accent sm:mb-3 sm:scale-125;
+  }
+  #services-list p {
+    @apply my-2;
+  }
+
+  /* ===== Featured & Recent Posts Sections ===== */
+  #featured,
+  #recent-posts {
+    @apply pb-6 pt-12;
+  }
+  #services-list h2 {
+    @apply text-2xl font-semibold tracking-wide;
+  }
+</style>
