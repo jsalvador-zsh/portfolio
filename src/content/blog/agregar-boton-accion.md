@@ -46,6 +46,7 @@ El primer paso es agregar el nuevo botón dentro de la vista XML correspondiente
 Después de definir el botón en la vista, necesitas crear la función Python correspondiente que manejará la acción. Esta función se define en el modelo del objeto. A continuación te muestro cómo hacerlo:
 
 ```python
+# -*-coding: utf-8-*-
 from odoo import models, api
 
 class SaleOrder(models.Model):
