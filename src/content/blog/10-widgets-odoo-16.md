@@ -5,7 +5,7 @@ modDatetime: 2024-10-10T09:12:47.400Z
 title: Widgets en Odoo para mostrar interfaces más atractivas 📈
 slug: widgets-odoo-16
 featured: true
-draft: false
+draft: true
 tags:
   - Odoo
   - XML

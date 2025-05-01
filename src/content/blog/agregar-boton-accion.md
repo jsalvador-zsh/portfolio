@@ -5,7 +5,7 @@ modDatetime: 2024-08-19T09:12:47.400Z
 title: ¿Cómo agregar una nueva función al botón de acción?
 slug: agregar-boton-accion
 featured: true
-draft: false
+draft: true
 tags:
   - Odoo
   - ERP

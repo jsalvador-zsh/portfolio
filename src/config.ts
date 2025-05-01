@@ -11,7 +11,7 @@ export const SITE: Site = {
   postPerIndex: 3,
   postPerPage: 4,
   scheduledPostMargin: 15 * 60 * 1000, // 15 minutes
-  showArchives: false,
+  showArchives: true,
   // editPost: {
   //   url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
   //   text: "Suggest Changes",
