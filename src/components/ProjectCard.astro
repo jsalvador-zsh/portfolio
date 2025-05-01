@@ -1,0 +1,46 @@
+---
+import type { Project } from "../types";
+import { Image } from "astro:assets";
+import Calendar from "../icons/Calendar.astro";
+
+const AstroProps = Astro.props as { project: Project };
+const project = AstroProps.project;
+---
+
+<article class="my-6 last-of-type:mb-0 ml-6">
+    <span class="absolute flex items-center justify-center w-6 h-6 -left-3">
+        <Calendar class="size-5"/>
+    </span>
+    <header>
+        <p class="italic">{project.date}</p>
+        <h3 class="inline-block text-lg font-medium text-skin-accent decoration-dashed underline-offset-4 focus-visible:no-underline focus-visible:underline-offset-0">{project.title}</h3>
+        <p>{project.description}</p>
+    </header>
+    <footer>
+        <div class="my-4 overflow-hidden rounded-md shadow-md">
+            <Image
+                class="rounded-md mx-auto w-full md:w-4/5 shadow-md hover:scale-105 duration-300 transition-all ease-in-out"
+                src={project.image}
+                width={350}
+                height={260}
+                loading="lazy"
+                alt={"Screenshot del proyecto " + project.title}
+            />
+        </div>
+        <ul class="flex flex-wrap gap-2 justify-center">
+            {
+                project.tags.map( tag => (
+                <li>
+                    <span class="flex items-center gap-x-2
+                                text-sm italic
+                                rounded-md px-2 py-[2px]
+                                border border-border/20 dark:border-borderDark/40">
+                        <tag.icon class="size-4" />
+                        {tag.name}
+                    </span>
+                </li>
+                ))
+            }
+        </ul>
+    </footer>
+</article>

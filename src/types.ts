@@ -1,4 +1,5 @@
 import type socialIcons from "@assets/socialIcons";
+import type { AstroComponentFactory } from "astro/runtime/server/index.js";
 
 export type Site = {
   website: string;
@@ -25,3 +26,18 @@ export type SocialObjects = {
   active: boolean;
   linkTitle: string;
 }[];
+
+export interface Tag {
+  name: string;
+  icon: AstroComponentFactory;
+}
+
+export interface Project {
+  title: string;
+  description: string;
+  date: string;
+  image: string;
+  link?: string;
+  repo: string;
+  tags: Tag[];
+}
