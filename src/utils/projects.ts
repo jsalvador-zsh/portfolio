@@ -5,6 +5,16 @@ import { TAGS } from "./tags";
 
 export const PROJECTS: Project[] = [
   {
+    title: "Rediseño página web Conresa Tours",
+    description:
+      "Sitio web para empresa de turismo. Desarrollado con Astro y Tailwind CSS, optimizado para SEO y rendimiento. Incluye diseño responsivo, así como múltiples secciones mostrando contenido manejado en un json.",
+    date: "Febrero - Marzo 2025",
+    image: "/img/conresa-web.webp",
+    link: "https://conresatours.com.pe",
+    repo: "https://github.com/jsalvador-zsh/web-conresa",
+    tags: [TAGS.Astro, TAGS.Tailwind, TAGS.Nginx, TAGS.JavaScript],
+  },
+  {
     title: "Odoo v13 Plastigesa E.I.R.L.",
     description:
       "Implementación de Odoo v13 con facturación electrónica (SUNAT), gestión de ventas, producción, personal, mantenimiento, inventarios y dashboards personalizados.",
