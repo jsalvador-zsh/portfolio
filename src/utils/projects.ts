@@ -12,7 +12,17 @@ export const PROJECTS: Project[] = [
     image: "/img/conresa-web.webp",
     link: "https://conresatours.com.pe",
     repo: "https://github.com/jsalvador-zsh/web-conresa",
-    tags: [TAGS.Astro, TAGS.Tailwind, TAGS.Nginx, TAGS.JavaScript],
+    tags: [TAGS.Astro, TAGS.Tailwind, TAGS.TypeScript, TAGS.Json],
+  },
+  {
+    title: "Rediseño página web CYAM S.R.L.",
+    description:
+      "Sitio web para empresa que brinda servicios de calibración y mantenimiento de equipos de medición. Desarrollado con Astro para sitios web estaticos, optimizado para SEO y rendimiento. Incluye diseño responsivo.",
+    date: "Marzo 2025",
+    image: "/img/cyam-web.webp",
+    link: "https://cyamsrl.com",
+    repo: "https://github.com/jsalvador-zsh/cyam-web",
+    tags: [TAGS.Astro, TAGS.Tailwind],
   },
   {
     title: "Odoo v13 Plastigesa E.I.R.L.",
@@ -22,7 +32,7 @@ export const PROJECTS: Project[] = [
     image: "/img/plastigesa-odoo.webp",
     link: "/project-info",
     repo: "https://github.com/jsalvador-zsh/powerpallet",
-    tags: [TAGS.Python, TAGS.Docker, TAGS.Ubuntu, TAGS.Nginx, TAGS.Odoo],
+    tags: [TAGS.Python, TAGS.Docker, TAGS.Ubuntu, TAGS.Nginx, TAGS.Odoo, TAGS.Bootstrap],
   },
   {
     title: "Odoo v17 Escuela de Derecho LP",
